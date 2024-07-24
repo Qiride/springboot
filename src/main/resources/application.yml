@@ -1,0 +1,21 @@
+email:
+  user: Mr.L
+  host: 3124899838@qq.com
+  auth: true
+
+hobbies:
+  - 打篮球
+  - 打排球
+  - 打羽毛球
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/big_event
+    username: root
+    password: 18664578416
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true #开启下划线转换驼峰
